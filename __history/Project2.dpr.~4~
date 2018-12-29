@@ -1,0 +1,17 @@
+program Project2;
+
+uses
+  Vcl.Forms,
+  Unit2 in '..\2\Unit2.pas' {Form2},
+  PASSWORD in 'c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS' {PasswordDlg};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TPasswordDlg, PasswordDlg);
+  Application.CreateForm(TPasswordDlg, PasswordDlg);
+  Application.Run;
+end.

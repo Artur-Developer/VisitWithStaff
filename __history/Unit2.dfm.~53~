@@ -1,0 +1,310 @@
+object Form2: TForm2
+  AlignWithMargins = True
+  Left = 0
+  Top = 0
+  Anchors = [akTop]
+  Caption = #1046#1091#1088#1085#1072#1083' '#1087#1086#1089#1077#1097#1072#1077#1084#1086#1089#1090#1080
+  ClientHeight = 556
+  ClientWidth = 1163
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  DesignSize = (
+    1163
+    556)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 1056
+    Top = 141
+    Width = 3
+    Height = 13
+    Anchors = [akTop, akRight]
+  end
+  object Label2: TLabel
+    Left = 772
+    Top = 13
+    Width = 104
+    Height = 16
+    Anchors = [akTop, akRight]
+    Caption = #1055#1091#1090#1100' '#1089#1086#1093#1088#1072#1085#1077#1085#1080#1103':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 704
+    Top = 53
+    Width = 172
+    Height = 16
+    Anchors = [akTop, akRight]
+    Caption = #1048#1084#1103' '#1076#1083#1103' '#1089#1086#1093#1088#1072#1085#1105#1085#1086#1075#1086' '#1092#1072#1081#1083#1072':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Top = 79
+    Width = 390
+    Height = 33
+    DataSource = DataSource1
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    AlignWithMargins = True
+    Left = 971
+    Top = 151
+    Width = 184
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100' '#1076#1072#1090#1091' '#1080' '#1074#1088#1077#1084#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNone
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BitBtn1Click
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 8
+    Top = 13
+    Width = 186
+    Height = 25
+    Date = 43264.881582152780000000
+    Time = 43264.881582152780000000
+    TabOrder = 2
+  end
+  object Button1: TButton
+    AlignWithMargins = True
+    Left = 971
+    Top = 120
+    Width = 184
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1055#1086#1080#1089#1082
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 882
+    Top = 79
+    Width = 106
+    Height = 26
+    Anchors = [akTop, akRight]
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1092#1072#1081#1083
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Left = 882
+    Top = 12
+    Width = 177
+    Height = 21
+    Anchors = [akTop, akRight]
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 1065
+    Top = 10
+    Width = 88
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1054#1073#1079#1086#1088
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Button3Click
+  end
+  object Edit3: TEdit
+    Left = 882
+    Top = 52
+    Width = 273
+    Height = 21
+    Anchors = [akTop, akRight]
+    TabOrder = 7
+  end
+  object Button4: TButton
+    Left = 994
+    Top = 79
+    Width = 161
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = #1054#1095#1080#1089#1090#1080#1090#1100' '#1080#1085#1092#1086#1088#1084#1072#1094#1080#1102
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    OnClick = Button4Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 182
+    Width = 1147
+    Height = 371
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    DataSource = DataSource1
+    TabOrder = 9
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = #1060#1048#1054
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1054#1090#1076#1077#1083
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1055#1086#1085#1077#1076#1077#1083#1100#1085#1080#1082' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1055#1086#1085#1077#1076#1077#1083#1100#1085#1080#1082' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1042#1090#1086#1088#1085#1080#1082' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1042#1090#1086#1088#1085#1080#1082' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1057#1088#1077#1076#1072' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1057#1088#1077#1076#1072' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1063#1077#1090#1074#1077#1088#1075' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1063#1077#1090#1074#1077#1088#1075' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1055#1103#1090#1085#1080#1094#1072' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1055#1103#1090#1085#1080#1094#1072' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1057#1091#1073#1073#1086#1090#1072' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1057#1091#1073#1073#1086#1090#1072' '#1091#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1042#1086#1089#1082#1088#1077#1089#1077#1085#1100#1077' '#1087#1088#1080#1093#1086#1076
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = #1042#1086#1089#1082#1088#1077#1089#1077#1085#1100#1077' '#1091#1093#1086#1076
+        Visible = True
+      end>
+  end
+  object ComboBox1: TComboBox
+    Left = 8
+    Top = 138
+    Width = 948
+    Height = 21
+    AutoDropDown = True
+    Anchors = [akLeft, akTop, akRight]
+    Sorted = True
+    TabOrder = 10
+    OnChange = ComboBox1Change
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOTable1
+    Left = 252
+    Top = 8
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Us' +
+      'ers\'#1073#1076'.mdb;Mode=Share Deny None;Persist Security Info=False;Jet ' +
+      'OLEDB:System database="";Jet OLEDB:Registry Path="";Jet OLEDB:Da' +
+      'tabase Password="";Jet OLEDB:Engine Type=5;Jet OLEDB:Database Lo' +
+      'cking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Globa' +
+      'l Bulk Transactions=1;Jet OLEDB:New Database Password="";Jet OLE' +
+      'DB:Create System Database=False;Jet OLEDB:Encrypt Database=False' +
+      ';Jet OLEDB:Don'#39't Copy Locale on Compact=False;Jet OLEDB:Compact ' +
+      'Without Replica Repair=False;Jet OLEDB:SFP=False'
+    LoginPrompt = False
+    Mode = cmShareDenyNone
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 220
+    Top = 8
+  end
+  object ADOTable1: TADOTable
+    Active = True
+    CacheSize = 5
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    TableName = #1058#1072#1073#1083#1080#1094#1072'1'
+    Left = 284
+    Top = 8
+  end
+end

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.819,=c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,=c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.642,C:\Users\Kirill\Desktop\Лиля\2\Unit2.dfm=C:\Users\Kirill\Desktop\Лиля\Лиля Практика\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.282,c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,=c:\program files (x86)\embarcadero\studio\19.0\ObjRepos\EN\DelphiWin32\PASSWORD.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\Users\Лиля\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Лиля\Desktop\Практика\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,=C:\Users\Лиля\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.950,=C:\Users\Kirill\Desktop\Лиля\Лиля Практика\PassWord.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.973,=C:\Users\Kirill\Desktop\Лиля\Лиля Практика\PassWord.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.621,C:\Users\Лиля\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Лиля\Desktop\Практика\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.642,C:\Users\Kirill\Desktop\Лиля\2\Unit2.pas=C:\Users\Kirill\Desktop\Лиля\Лиля Практика\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.621,C:\Users\Лиля\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Лиля\Desktop\Практика\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
